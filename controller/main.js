@@ -10,6 +10,7 @@
 			'myVariable': 'Some value'
 		}, function(output) {
 			console.log(output);
+			$('#container').html(output);
 		});
 
 	});
