@@ -6,7 +6,7 @@
 
 		console.log("You're in the Main route");
 
-		context.render('/view/main.ejs', {
+		context.render('/view/main.template', {
 			'myVariable': 'Some value'
 		}, function(output) {
 			console.log(output);
